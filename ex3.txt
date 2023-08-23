@@ -1,0 +1,22 @@
+Why does the validation error increases when the number of epochs are increased? 
+	the model is overfitting
+
+Explain how you can modify the training process to stop that from happening.
+	Cease model training upon detecting a rise in validation error.
+	Regularization Incorporation: Integrate regularization methods like L1 or L2.
+	Dropout Implementation: Randomly deactivate certain connections.
+	Enhanced Training Data Utilization: Employ additional training data if available.
+
+Explain how the mini batch SGD (Stochastic Gradient Descent) algorithm can converge faster than the batch Gradient Descent algorithm.
+
+
+Batch Gradient Descent involves utilizing the complete dataset during each iteration. 
+This entails cycling through the entire dataset in every step, which can be exceptionally time-consuming.
+
+
+Mini batch SGD (Stochastic Gradient Descent)
+Takes a batch of data set which is less that the actual data set at a time and update the parameters. 
+Instead of waiting for the model to compute whole data set, able to update the parameters more frequently. As it proceeding as batchesthis is fater than Batch Grdaient Descent
+	
+	
+	
